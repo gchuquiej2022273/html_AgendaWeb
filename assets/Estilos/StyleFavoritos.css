@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-color: rgb(61, 59, 59);
+    justify-content: space-around;
+}
+
+.listFavoritos{
+    background-color: white;
+    margin-top: 5%;
+    height: 80vh;
+    width: 65vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgb(210, 195, 195);
+
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2%;
+}
+
+.contenido{
+    margin: 5%;
+}
+
+.accion a{
+    display: flex;
+    padding-top: 10%;
+    flex-direction: column;
+    justify-content: end;
+}
