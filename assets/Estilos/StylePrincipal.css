@@ -1,22 +1,49 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    display: flex;
-    flex-direction: column;
     height: 100%;
 }
 
-nav{
-    background-color: black;
-    height: 100%;
-    display: flex;
-}
-
-nav h1{
+.navegacion{
+    height: 100px;
+    width: 100%;
     color: white;
-    padding-left: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.title img{
+    height:50px;
+}
+
+.opciones button{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center
 }
 
 .opciones{
-    color: white;
+    padding-right: 1%;
+}
+
+.fondo{
+    background-color: darkblue;
+}
+
+.opsImagen{
+    border-color: white;
+}
+
+.contenido{
+    display: flex;
+    height: 2000%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
